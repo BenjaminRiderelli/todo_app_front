@@ -1,0 +1,32 @@
+*{
+  box-sizing: border-box;
+}
+
+:root {
+  font-family: Inter, system-ui, Avenir, Helvetica, Arial, sans-serif;
+  line-height: 1.5;
+  font-weight: 400;
+
+  font-synthesis: none;
+  text-rendering: optimizeLegibility;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+  -webkit-text-size-adjust: 100%;
+}
+body {
+  position:relative;
+  margin: 0;
+  padding:4em;
+  min-width: 100%;
+  min-height: 100vh;
+  background-color:#8758ff;
+  display:flex;
+  justify-content: center;
+  align-items: center;
+}
+
+
+::-webkit-datetime-edit { padding: 1em; }
+::-webkit-datetime-edit-fields-wrapper { padding:0 1em;}
+::-webkit-inner-spin-button { display: none; }
+::-webkit-calendar-picker-indicator { cursor:pointer;}
